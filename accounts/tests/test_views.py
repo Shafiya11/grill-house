@@ -27,23 +27,5 @@ class TestCustRegViews(TestCase):
         self.assertEqual(qs.count(),1)
         # print("User registered sucessfully!!")
 
-# class TestCustLogin(TestCase):
 
-    # def setUp(self):
-    #     self.Client = Client()
-    #     user = auth.authenticate(
-    #         username='nakadi',
-    #         password='starnaK@8'
-        # )
-        # qs = auth.login(request, user)
-        # self.assertEqual(qs.count(),1)
-
-    # def test_cust_login_POST(self):
-    #     url2 = reverse('custLogin')
-    #     response = self.client.get(url2)
-    #     self.assertEqual(response.status_code, 200)
-    #     self.assertTemplateUsed(response,'custLogin.html')
-    #     # qs = auth.login(request, user)
-    #     # self.assertEqual(qs.count(),1)
-    #     print("User registered sucessfully!!")
        
